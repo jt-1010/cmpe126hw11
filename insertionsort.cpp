@@ -33,3 +33,5 @@ int main() {
 
     return 0;
 }
+
+//Code Output: Insertion Sorted array: 2 5 12 15 19 23 33 34 45 90 99
