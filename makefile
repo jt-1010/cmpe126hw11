@@ -7,7 +7,7 @@ CC = g++
 RUNOPTION = main
 CFLAGS = -g -Wall
 
-SRCS = bubblesort.cpp
+SRCS = insertionsort.cpp
 OBJ = $(patsubst %.cpp,%.o,$(SRCS))
 
 all: $(RUNOPTION)
