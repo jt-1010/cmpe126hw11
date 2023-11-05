@@ -7,7 +7,7 @@ CC = g++
 RUNOPTION = main
 CFLAGS = -g -Wall
 
-SRCS = mergesort.cpp
+SRCS = quicksort.cpp
 OBJ = $(patsubst %.cpp,%.o,$(SRCS))
 
 all: $(RUNOPTION)
